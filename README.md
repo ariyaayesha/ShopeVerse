@@ -1,1 +1,62 @@
 # ShopeVerse
+ShopVerse
+ShopVerse is a simple yet functional supershop website that allows users to browse products, view deals, manage a shopping cart, and place orders. It includes features for checkout, order confirmation, and basic user authentication.
+
+📂 Project Structure
+.
+├── index.html                # Homepage
+├── best-sellers.html         # Best-selling products page
+├── hot-deals.html            # Special offers page
+├── products.html / .php      # Product listing
+├── product-detail.html       # Product details view
+├── checkout.html / .php      # Checkout process
+├── order-confirmation.html   # Order confirmation page
+├── invoice.php               # Invoice generation
+├── simple-login.html         # Login form
+├── simple-register.html      # Registration form
+├── contact.html              # Contact page
+├── css/style.css             # Main CSS styling
+├── js/checkout.js            # Checkout functionality
+├── js/order-confirmation.js  # Confirmation handling
+├── script.js                 # Main JS logic
+├── simple-auth.js            # Basic authentication logic
+✨ Features
+Product Browsing – View product categories, details, and special deals.
+Shopping Cart – Add, update, and remove items before checkout.
+Checkout System – Collect customer details and process orders.
+Order Confirmation & Invoice – Show purchase details and generate invoices.
+Basic Authentication – Simple login and registration functionality.
+Responsive Design – Works on desktop and mobile devices.
+🛠️ Tech Stack
+Frontend: HTML5, CSS3, JavaScript
+Backend: PHP
+Styling: Custom CSS
+Data Handling: Basic PHP scripts
+Database: MySQL (for storing users, orders, and product data)
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/supershop.git
+cd supershop
+2. Set up a local PHP server
+If you have PHP installed:
+
+php -S localhost:8000
+Or use XAMPP/WAMP and place the project in the htdocs folder.
+
+3. Database Setup
+Create a MySQL database (e.g., supershop_db).
+Import the provided SQL file into your database (if available, database.sql).
+Update your PHP configuration files (e.g., checkout.php, invoice.php) with your database credentials:
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "supershop_db";
+Ensure your MySQL server is running.
+4. Open in browser
+Visit:
+
+http://localhost:8000
+(or http://localhost/supershop if using XAMPP/WAMP).
+
+📸 Screenshots
+Screenshot 2025-08-13 111839 Screenshot 2025-08-13 112127
