@@ -2,6 +2,9 @@
 
 ShopVerse is a simple yet functional supershop website that allows users to browse products, view deals, manage a shopping cart, and place orders. It includes features for checkout, order confirmation, and basic user authentication.
 
+## For live view (Click here)
+https://ariyaayesha.github.io/ShopeVerse/
+
 ## 📂 Project Structure
 
 ```
